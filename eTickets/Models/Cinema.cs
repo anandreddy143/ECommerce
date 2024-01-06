@@ -1,4 +1,4 @@
-﻿using eTickets.Data.Base;
+﻿//using eTickets.Data.Base;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace eTickets.Models
 {
-    public class Cinema: IEntityBase
+    public class Cinema
     {
         [Key]
         public int Id { get; set; }
